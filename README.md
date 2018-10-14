@@ -23,3 +23,4 @@ We should create ssh "config" file in our home directory "~/.ssh/" with appropri
 
 bastion_IP = 35.234.123.137
 someinternalhost_IP = 10.156.0.3
+
