@@ -1,4 +1,6 @@
 {
+ "project_id": "infra",
+ "source_image_family": "ubuntu-1604-lts",
  "image_family": "reddit",
  "zone": "europe-east3-b",
  "ssh_username": "username",
