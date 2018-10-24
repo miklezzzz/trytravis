@@ -9,3 +9,4 @@ output "app_external_ip2" {
 output "lb_external_ip" {
   value = "${google_compute_forwarding_rule.puma-lb.ip_address}"
 }
+

@@ -24,3 +24,4 @@ resource "google_compute_forwarding_rule" "puma-lb" {
   target     = "${google_compute_target_pool.puma-cluster.self_link}"
   port_range = "9292"
 }
+

@@ -23,3 +23,4 @@ variable disk_image {
 variable ssh_key_for_provisioners {
   description = "SSH private key for provisioners"
 }
+

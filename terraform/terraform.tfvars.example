@@ -1,7 +1,8 @@
 project = "infra-123456789"
 
-public_key_path = "/home/username/.ssh/username.pub"
-
 disk_image = "reddit-full"
 
-ssh_key_for_provisioners = "/home/username/.ssh/username"
+public_key_path = "~/.ssh/appuser.pub"
+
+private_key_path = "~/.ssh/appuser"
+
