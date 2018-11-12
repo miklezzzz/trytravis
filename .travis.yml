@@ -22,6 +22,8 @@ before_install:
 - tflint terraform/prod/*.tf --var-file=terraform/prod/terraform.tfvars
 - echo "Ansible playbooks validation"
 - find ansible/playbooks -name *.yml -type f -print0 | xargs -0 -n1 ansible-lint
+- echo "Check for a badge in README.md"
+- grep "\[\!\[Build Status\](https://.*)\](https://.*)" README.md
 - curl https://raw.githubusercontent.com/express42/otus-homeworks/2018-09/run.sh | bash
 notifications:
   slack:
